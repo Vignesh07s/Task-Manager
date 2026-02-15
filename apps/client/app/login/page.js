@@ -86,7 +86,7 @@ const handleSubmit = async (e) => {
               loading ? "opacity-70 cursor-not-allowed" : "hover:shadow-xl hover:-translate-y-1"
             }`}
           >
-            {loading ? "Authenticating..." : "Sign In"}
+            {loading ? "Signing in..." : "Sign In"}
           </button>
         </form>
 
