@@ -1,0 +1,30 @@
+{
+  "name": "task-manager-web-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "turbo dev",
+    "build": "turbo build",
+    "start": "turbo start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "packageManager": "pnpm@10.15.1",
+  "devDependencies": {
+    "nodemon": "^3.1.11",
+    "turbo": "^2.8.8"
+  },
+  "dependencies": {
+    "@tailwindcss/postcss": "^4.1.18",
+    "bcryptjs": "^3.0.3",
+    "cookie-parser": "^1.4.7",
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.2.1",
+    "postcss": "^8.5.6",
+    "tailwindcss": "^4.1.18"
+  }
+}
