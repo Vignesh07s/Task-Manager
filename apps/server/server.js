@@ -11,7 +11,7 @@ const app = express();
 connectToDB();
 
 app.use(cors({
-    origin: 'http://localhost:3000/',
+    origin: ['http://localhost:3000/', 'https://task-manager-client-jet.vercel.app'],
     credentials: true
 }))
 

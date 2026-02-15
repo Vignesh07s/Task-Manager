@@ -1,6 +1,13 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  /* config options here */
+  async rewrites() {
+    return [
+      {
+        source: '/api/:path*',
+        destination: 'https://task-manager-server-of9j.onrender.com/api/:path*',
+      },
+    ];
+  },
 };
 
 export default nextConfig;
